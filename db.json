@@ -1,0 +1,459 @@
+{
+  "users": [
+    {
+      "id": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "email": "vitor@gmail.com",
+      "password": "$2a$12$5TcUejg3U2mKmvPmGo0wNebGWvoY0UUP0Bwh0B0yzWItacMi7xJ0K",
+      "name": "Vitor Pereira",
+      "defaultAddress": "5e0b35b6-c733-4a9e-89a7-6f822749f22c"
+    },
+    {
+      "email": "vitorteste@gmail.com",
+      "password": "$2a$10$p4f/fYfOFhXneV7DpP5xgOinLtPF8QL1cBPNzqZSqQTfE7n8wWzKC",
+      "name": "teste",
+      "id": "YIFK9s0"
+    },
+    {
+      "email": "fabiana@gmail.com",
+      "password": "$2a$10$QhNCjumVRLIjpJKf.pJSYeAWK8dqFANjDaOPO6YdSiGM/bdwHl1Qa",
+      "name": "Fabiana",
+      "id": "nffCyhR"
+    }
+  ],
+  "addresses": [
+    {
+      "userId": "nffCyhR",
+      "name": "Casa da Fabi",
+      "phone": "(48) 99977-4948",
+      "cep": "46513-213",
+      "fullAddress": "Rua Santos Dumont",
+      "houseNumber": "840",
+      "neighborhood": "Ponte do Imaruim",
+      "city": "Palhoça",
+      "state": "SC",
+      "country": "Brasil",
+      "id": "6d6cf653-f600-4bcb-9793-da20d0bcf8d0"
+    },
+    {
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "name": "teste",
+      "phone": "(48) 88885-2888",
+      "cep": "85858-685",
+      "fullAddress": "Rua teste",
+      "houseNumber": "18",
+      "neighborhood": "teste",
+      "city": "teste",
+      "state": "teste",
+      "country": "teste",
+      "id": "R-mL6Fr"
+    }
+  ],
+  "store-addresses": [
+    {
+      "id": "5e0b35b6-c733-4a9e-89a7-6f822749f72c",
+      "name": "Loja de São Paulo",
+      "phone": "+55 (48) 99977-4948",
+      "cep": "88000-000",
+      "fullAddress": "Rua da loja",
+      "houseNumber": "18E",
+      "neighborhood": "Bairro",
+      "city": "São Paulo",
+      "state": "SP",
+      "country": "Brasil"
+    },
+    {
+      "name": "Loja da Palhoça",
+      "phone": "(48) 99977-4948",
+      "cep": "46546-546",
+      "fullAddress": "Rua da loja",
+      "houseNumber": "742",
+      "neighborhood": "Ponte do Imaruim",
+      "city": "Palhoça",
+      "state": "SC",
+      "country": "Brasil",
+      "id": "524736eb-250f-409b-9b60-26e7rb655979"
+    },
+    {
+      "name": "Casa de Salvador",
+      "phone": "(48) 99977-4948",
+      "cep": "46542-132",
+      "fullAddress": "Rua da loja",
+      "houseNumber": "321",
+      "neighborhood": "Pituba",
+      "city": "Salvador",
+      "state": "BA",
+      "country": "Brasil",
+      "id": "b8c3acd5-cee0-4cf5-aa4e-67fbebd430b0"
+    }
+  ],
+  "products": [
+    {
+      "id": "a3938ee0-7d40-4b69-8ec1-f4ed3c32aa6e",
+      "name": "Smartphone Galaxy S23",
+      "price": 4999.99,
+      "description": "Smartphone Samsung Galaxy S23 128GB",
+      "image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500",
+      "createdAt": "2025-07-01T10:00:00Z",
+      "manufacturer": "Samsung",
+      "category": "Smartphone"
+    },
+    {
+      "id": "b28c1900-c700-4d01-8820-3a2c91d57848",
+      "name": "MacBook Pro M2",
+      "price": 9999.99,
+      "description": "MacBook Pro com chip M2",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+      "createdAt": "2025-06-25T14:30:00Z",
+      "manufacturer": "Apple",
+      "category": "Laptop"
+    },
+    {
+      "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+      "name": "iPad Air",
+      "price": 5499.99,
+      "description": "iPad Air 256GB",
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+      "createdAt": "2025-07-10T09:45:00Z",
+      "manufacturer": "Apple",
+      "category": "Tablet"
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "6d6cf653-f600-4bcb-9793-da20d0bcf8d0",
+      "paymentMethod": "pix",
+      "userId": "nffCyhR",
+      "date": "2025-07-27T16:31:21.503Z",
+      "id": "e27498aa-f4be-494b-b148-da33d3ae7db5"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:25:45.581Z",
+      "id": "AnEPUgM"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:26:24.447Z",
+      "id": "iZTUT83"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:26:56.347Z",
+      "id": "QG3I00i"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:27:15.878Z",
+      "id": "GBEwxYB"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:30:19.591Z",
+      "id": "8hbiUup"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:30:30.999Z",
+      "id": "AztcnsL"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T18:32:58.907Z",
+      "id": "iU9MafJ"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T19:05:25.617Z",
+      "id": "ewinZmO"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T19:19:17.064Z",
+      "id": "hBfoL0T"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T19:25:06.904Z",
+      "id": "tn6dQfz"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T19:31:01.931Z",
+      "id": "9NhJw00"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T19:36:28.801Z",
+      "id": "1MuckK6"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T21:23:17.749Z",
+      "id": "fDu-0dp"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T21:27:50.013Z",
+      "id": "GSp_CMr"
+    },
+    {
+      "items": [
+        {
+          "id": "1f2dbfb7-b39a-4693-897f-2a2c9d8b0d3e",
+          "name": "iPad Air",
+          "price": 5499.99,
+          "description": "iPad Air 256GB",
+          "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+          "createdAt": "2025-07-10T09:45:00Z",
+          "manufacturer": "Apple",
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "total": 5499.99,
+      "address": "R-mL6Fr",
+      "paymentMethod": "pix",
+      "userId": "e8c5a2f0-1d1a-4d61-bbce-74a8f41d964f",
+      "date": "2025-07-27T21:27:53.481Z",
+      "id": "bFrzM2g"
+    }
+  ]
+}
