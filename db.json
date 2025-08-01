@@ -116,7 +116,37 @@
       "createdAt": "2025-07-10T09:45:00Z",
       "manufacturer": "Apple",
       "category": "Tablet"
-    }
+    },
+    {
+    "id": "c1e4a7a4-52cf-4d93-a8c7-01c3274b31b1",
+    "name": "Notebook Dell XPS 13",
+    "price": 8799.90,
+    "description": "Notebook Dell XPS 13 com Intel Core i7 e 16GB RAM",
+    "image": "https://cdn.pixabay.com/photo/2020/10/21/18/07/laptop-5673901_1280.jpg",
+    "createdAt": "2025-07-15T11:00:00Z",
+    "manufacturer": "Dell",
+    "category": "Laptop"
+  },
+  {
+    "id": "e3b2ddcb-7c63-4d21-98f6-8bc6c4b6e142",
+    "name": "Smartphone iPhone 15",
+    "price": 7999.00,
+    "description": "Apple iPhone 15 128GB - Preto Estelar",
+    "image": "https://cdn.pixabay.com/photo/2022/09/26/19/40/iphone-7481400_1280.jpg",
+    "createdAt": "2025-07-18T08:45:00Z",
+    "manufacturer": "Apple",
+    "category": "Smartphone"
+  },
+  {
+    "id": "b9fbd315-981a-4d77-8e2f-8496b6bc8d12",
+    "name": "Tablet Samsung Galaxy Tab S9",
+    "price": 4299.90,
+    "description": "Samsung Galaxy Tab S9 com S Pen",
+    "image": "https://cdn.pixabay.com/photo/2015/05/31/15/16/man-792174_1280.jpg",
+    "createdAt": "2025-07-12T16:10:00Z",
+    "manufacturer": "Samsung",
+    "category": "Tablet"
+  }
   ],
   "orders": [
     {
